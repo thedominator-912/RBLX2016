@@ -2,7 +2,7 @@
 This is a userstyle that attempts to transform Modern Roblox's current theme into one reminiscent of the mid-2010s.
 
 <p align="center">
-    <img src="Thumbnails/Outputs/RLOT.png" alt="Roblox Legacy Old Theme image" title="Roblox Legacy Theme Preview">
+    <img src="rblx2016ad.png" alt="Roblox Legacy Old Theme image" title="Roblox Legacy Theme Preview">
 </p>
 
 ## Pages
