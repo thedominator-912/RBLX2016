@@ -23,8 +23,7 @@ Don't have Stylus yet? You can download it here:
 Once downloaded, go [here](https://userstyles.world/style/27325/). Click the blue "Install" button, and it will lead you to the install page. Then click the gray "Install Style" button on the top-left and you're done. To confirm it's working, you can go to [roblox.com](https://roblox.com/).
 
 ## Credits
-Things used to make this theme possible:
 - [CodePen](https://codepen.io)
 - [Wayback Machine](https://web.archive.org)
 - [YouTube](https://youtube.com)
-- Ologist, anthony1x6000, firejinxer, Vue2016, melo, kindongshin, and TersisWilvin.
+- Ologist, anthony1x6000, firejinxer, Vue2016, melo, kindongshin, and TersisWilvin for some of the code.
