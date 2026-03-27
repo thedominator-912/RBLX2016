@@ -22,6 +22,21 @@ Don't have Stylus yet? You can download it here:
 
 Once downloaded, go [here](https://userstyles.world/style/27325/). Click the blue "Install" button, and it will lead you to the install page. Then click the gray "Install Style" button on the top-left and you're done. To confirm it's working, you can go to [roblox.com](https://roblox.com/).
 
+
+## Recommended Settings
+BTROBLOX and Light Theme is recommended.
+
+Settings for BTR:
+ - Header
+   - Disable Connections, Messages, and Home
+   - Enable ROBUX and Notifications
+ - Sidebar
+   - Disable Transactions and Blog Feed
+   - Enable Home and Premium Button
+    
+- Other
+    - Disable Profile, Groups, Game Details, Item Details, Inventory, and Catalog Sections.
+    - Disable Fast User Search
 ## Credits
 - [CodePen](https://codepen.io)
 - [Wayback Machine](https://web.archive.org)
