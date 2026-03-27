@@ -2750,7 +2750,7 @@ a#sign-up-link:focus {
     display: none;
 }
 }
-@-moz-document url-prefix("https://www.roblox.com/CreateAccount") {
+@-moz-document url-prefix("https://www.roblox.com/CreateAccount"), domain("https://www.roblox.com") {
     /* Sign Up Page */
     /* Credits to MysteryChannel for this code */
 #InnerRollerContainer {
