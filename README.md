@@ -14,6 +14,8 @@ This is a userstyle that attempts to transform Modern Roblox's current theme int
 - Catalog
 - Catalog Item Viewer
 - Buy ROBUX
+- Profile
+- Messages
 
 ## Installation
 Don't have Stylus yet? You can download it here:
@@ -37,6 +39,12 @@ Settings for BTR:
 - Other
     - Disable Profile, Groups, Game Details, Item Details, Inventory, and Catalog Sections.
     - Disable Fast User Search
+## Extras
+For more accuracy, you'll need:
+- [Restore Favorites Label](https://pastebin.com/1jWtAavN)
+- [Old Profile Page Addon](https://greasyfork.org/en/scripts/568809-roblox-old-profile-page-add-on)
+
+These both require [Tampermonkey](https://www.tampermonkey.net/index.php#download) to use. If you're confused on how to install these scripts, view [this page](https://www.tampermonkey.net/faq.php?locale=en#Q102) for more info.
 ## Credits
 - [CodePen](https://codepen.io)
 - [Wayback Machine](https://web.archive.org)
