@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           RBLX2016 - Old Roblox Restored
 @namespace      https://github.com/thedominator-912/RBLX2016
-@version        1.2
+@version        1.3
 @description    This is a userstyle that attempts to transform Modern Roblox's current theme into one reminiscent of the mid-2010s.
 @author         Dominator912
 ==/UserStyle== */
@@ -258,6 +258,9 @@ body {
     width: 28px;
     height: 28px;
 }
+.light-theme .icon-nav-settings {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);    
+}
 .icon-nav-settings:hover {
     background-position: -28px -84px !important;
 }
@@ -423,7 +426,218 @@ body {
 .btr-fastsearch-thumbnail-container {
     border-color: #b8b8b8;
 }
-/* SIDEBAR */
+/* SIDEBAR (BASE) */
+.left-nav, .scroll-y  {
+    width: 175px;
+}
+.left-nav {
+    box-shadow: 0 0 3px rgba(25, 25, 25, 0.3);
+}
+.scroll-y {
+    overflow-y: hidden;
+}
+.no-gutter-ads.left-nav-new-width main.container-main {
+    margin-left: 175px;
+}
+.padding-x-large {
+    width: 175px;
+    padding: 5px 10px 0;
+}
+.stroke-default {
+    display: none;
+}
+nav .flex-col li:nth-child(1) {
+    height: 34.4px;
+    border-bottom: 1px solid #B8B8B8;
+    margin-bottom: 9px;
+}
+.flex-col li:nth-child(1) .size-1000 {
+    display: none;
+}
+.content-emphasis > .gap-xsmall > .text-truncate-end {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    margin-top: 5px;
+    margin-left: -4px;
+}
+.flex-col li:nth-child(1) .content-emphasis > span > .text-truncate-end {
+    margin-left: 0px;
+    color: #191919!important;
+}
+.content-emphasis > .absolute:hover, .foundation-web-button > .absolute:hover {
+    background-color: #fff0!important;
+}
+nav .flex-col li:not(li:nth-child(1)) {
+    height: 28.84px;
+    margin-top: -2.2px;
+}
+.content-emphasis:not(.profile-currently-wearing h2) {
+    background-color: #fff;
+}
+.flex-col li .size-1000, .flex-col li .size-1000 .icon {
+    width: 28px;
+    height: 28px;
+}
+.flex-col > li:not(li:nth-child(1)) > .content-emphasis > .text-truncate-end, .content-emphasis > span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    margin-left: -4.5px;
+    color: #191919;
+}
+.flex-col li:nth-child(2) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -140px;
+}
+.flex-col li .size-1000 .icon {
+    background-color: #fff;
+}
+.flex-col li:nth-child(3) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -168px;
+}
+.flex-col li:nth-child(4) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -196px;
+}
+.flex-col li:nth-child(5) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -224px;
+}
+.flex-col li:nth-child(6) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -252px;
+}
+.flex-col li:nth-child(7) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -280px;
+}
+.flex-col li:nth-child(8) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -308px;
+}
+.flex-col li:nth-child(9) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -336px;
+}
+.flex-col li:nth-child(10) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -364px;
+}
+.flex-col li:nth-child(11) .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: 0 -420px;
+}
+.flex-col li:nth-child(12) {
+    display: none;
+}
+.flex-col li:nth-child(13) .foundation-web-button {
+    transition: box-shadow 200ms ease-in-out;
+    background-color: #00a2ff;
+    border: 1px solid #00a2ff;
+    border-radius: 3px;
+    height: 38px;
+    margin-top: 5px;
+}
+.flex-col li:nth-child(13) .foundation-web-button .text-truncate-end::after {
+    content: 'Upgrade Now';
+    font-size: 18px!important;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Source Sans Pro";
+    position: relative;
+    top: 3px;
+}
+.flex-col li:nth-child(13) .foundation-web-button .text-truncate-end {
+    font-size: 0px;
+}
+.flex-col li:nth-child(13) .foundation-web-button:hover {
+    background-color: #32b5ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #32b5ff;
+}
+.flex-col li:nth-child(11):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -420px;
+}
+.flex-col li:nth-child(10):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -364px;
+}
+.flex-col li:nth-child(9):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -336px;
+}
+.flex-col li:nth-child(8):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -308px;
+}
+.flex-col li:nth-child(7):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -280px;
+}
+.flex-col li:nth-child(6):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -252px;
+}
+.flex-col li:nth-child(5):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -224px;
+}
+.flex-col li:nth-child(4):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -196px;
+}
+.flex-col li:nth-child(3):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -168px;
+}
+.flex-col li:nth-child(2):hover .size-1000 .icon {
+    background-image: url(https://images.rbxcdn.com/f4000b6d03a0df7153556d2514045629-navigation_10022018.svg);
+    background-position: -28px -140px;
+}
+.flex-col li:hover .content-emphasis > .text-truncate-end, .flex-col li:hover .content-emphasis > span {
+    color: #00a2ff!important;
+}
+.flex-col li:nth-child(11) .content-emphasis > span {
+    font-size: 0px;
+}
+.flex-col li:nth-child(11) .content-emphasis > span:nth-child(3)::after {
+    content: 'Shop';
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+}
+.flex-col li:nth-child(2):hover .content-emphasis > .text-truncate-end, .flex-col li:nth-child(7):hover .content-emphasis > .text-truncate-end {
+    color: #02b757!important;
+}
+.flex-col li:nth-child(3):hover .content-emphasis > .text-truncate-end, .flex-col li:nth-child(6):hover .content-emphasis > .text-truncate-end {
+    color: #f68802!important;
+}
+.icon {
+    mask-image: none;
+}
+.transition-colors {
+    background-color: #0000!important;
+}
+.no-gutter-ads.left-nav-new-width footer.container-footer {
+    margin-left: 175px;
+    width: 100%;
+}
+.flex-col li:nth-child(9) .content-emphasis > span {
+    font-size: 0px !important;
+}
+.flex-col li:nth-child(9) .content-emphasis > span:nth-child(3)::after {
+    content: 'Groups';
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+}
+.bg-system-contrast {
+    background-color: #00a2ff !important;
+}
+/* ROSEAL SIDEBAR */
 .light-theme .icon-default-navigation,
 .light-theme .icon-nav-giftcards,
 .light-theme .icon-nav-my-feed,
@@ -5283,7 +5497,6 @@ resellers-pane .section-content-off {
     width: 100px!important;
     height: 100px!important;
 }
-
  .profile-currently-wearing .item-card-container, .profile-collections .item-card-container {
     box-shadow: none!important;
 }
@@ -6096,7 +6309,7 @@ resellers-pane .section-content-off {
     cursor: pointer;
     display: inline-block;
     font-weight: bolder;
-    height: auto;
+    height: 25px;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -6489,6 +6702,41 @@ resellers-pane .section-content-off {
     top: -62px;
     margin-left: 15px;
     background-position: 0 -56px;
+}
+.content-emphasis.text-heading-small.padding-none {
+    font-size: 24px;
+    background-color: transparent;
+}
+.profile-favorite-experiences .icon-chevron-heavy-right {
+    background-image: none !important;
+    width: 90px;
+    height: 25px;
+    display: flex;
+    transition: box-shadow 200ms ease-in-out;
+    background-color: #00a2ff;
+    border: 1px solid #00a2ff;
+    border-radius: 3px;
+    position: relative;
+    left: 794px;
+}
+.profile-favorite-experiences .icon-chevron-heavy-right::after {
+    content: 'Favorites';
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: -0.1px;
+}
+.profile-favorite-experiences .icon-chevron-heavy-right:hover {
+    background-color: #32b5ff;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+    border-color: #32b5ff;
+}
+#player-badges-container .container-header h2:before {
+    content: 'Player ';
+    cursor: text;
 }
 @-moz-document url-prefix("https://www.roblox.com/my/messages"), url-prefix("https://web.roblox.com/my/messages") {
 /* Messages (Inbox) Page */
@@ -7262,5 +7510,568 @@ a[href="#!/notifications"] > span:nth-child(1) {
 }
 .personalized-bonus-items__banner-container {
     display: none;
+}
+}
+@-moz-document url-prefix("https://www.roblox.com/my/avatar"), url-prefix("https://web.roblox.com/my/avatar") {
+/* Avatar Editor */
+/* Credits to firejinxer for most of the code */
+.av15-tab.av15-tab--active {
+    background-color: #fff !important;
+    padding: 9px 7px 12px 7px;
+    border: 1px solid #ccc;
+    border-bottom: #fff;
+    top: 2px;
+    position: relative;
+}
+.av15-tab {
+    background-color: #d6d6d6;
+    padding: 7px;
+    border: 1px solid #9e9e9e;
+    border-bottom: #d6d6d6;
+    top: 5px;
+    position: relative;
+    margin-left: 2px;
+    font-weight: bold;
+}
+.av15-tab:hover {
+    background-color: #e9e9e9;
+}
+#av15-categories {
+    width: 380px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    left: 100px;
+    margin-top: 15px;
+}
+.av15-category {
+    background-color: #fff;
+    border: none;
+    padding: 4px 7px;
+    font-weight: 500;
+    color: #0055B3;
+}
+.av15-item {
+    width: 153px;
+}
+.av15-item__name {
+    font-weight: 600;
+    color: #0055B3;
+    width: 143px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+}
+.av15-page-btn {
+    background-color: #fff;
+    border: none;
+    font-weight: 400;
+}
+.av15-page-btn.av15-page-btn--current {
+    background-color: #dedede;
+    font-weight: 400;
+}
+.av15-wearing-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+}
+#av15-currently-wearing {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+#av15-pagination, .av15-pagination {
+    text-align: center;
+    margin-top: 30px;
+}
+#av15-grid:not(:has(.av15-empty)), .av15-wearing-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 153px);
+    row-gap: 20px;
+    column-gap: 5px;
+    height: 519px;
+}
+#av15-grid:has(.av15-empty) {
+    height: 519px;
+}
+.av15-item__wear-btn {
+    border: 1px solid #0852b7!important;
+    background-color: #0852b7;
+    background-image: url(/images/Buttons/StyleGuide/bg-btn-blue.png);
+    padding: 0 7px;
+    color: #fff;
+    font-weight: 400;
+    height: 27px;
+    background-position: left 154px;
+    float: right;
+}
+.av15-item__wear-btn:hover {
+    background-position: left 120px;
+}
+.av15-category:hover {
+    background-color: #dedede;
+}
+.av15-tab[data-tab="wardrobe"] {
+    margin-left: 10px;
+}
+#av15-tabs {
+    border-bottom: 1px solid #ccc;
+}
+#content, #container-main {
+    background-color: #fff;
+}
+.right-panel.seven-column, .right-panel.six-column {
+    width: 600px;
+}
+.tab-wrapper {
+    width: 670px;
+}
+.rbx-tabs-horizontal-seven-column > .catalog-header {
+    position: relative!important;
+    top: -80px;
+    left: 0px;
+    z-index: 1000;
+}
+.btn-primary-md[href="https://www.roblox.com/catalog"] {
+    display: inline-flex;
+    height: 35px;
+    float: right;
+    align-items: center;
+    top: -20px;
+    position: relative;
+}
+.avatar-editor-header .catalog-header div:nth-child(n+1)::after {
+    display: inline-block;
+    text-align: right;
+    width: 250px;
+}
+.av15-item__thumbnail {
+    width: 123px;
+    height: 123px;
+    display: block;
+}
+.left-wrapper .section-content.remove-panel {
+    box-shadow: none;
+}
+.avatar-back {
+    background-image: none;
+    margin: 0px!important;
+}
+#UserAvatar > .toggle-three-dee {
+    background-image: url(https://static.rbxcdn.com/images/StyleGuide/btn-control-medium-tile.png);
+    font-size: 12px!important;
+    padding-top: 5px;
+    padding: 4px!important;
+    min-height: 0px!important;
+    border-radius: 0px;
+    z-index: 1;
+}
+.toggle-three-dee:hover {
+    background-position: 0 21px;
+}
+.section-sliders:has(.scale-container) {
+    display: none;
+}
+.avatar-editor-header h1, .avatar-editor-header h1:hover {
+    font-size: 0px;
+    height: 56px;
+    font-weight: 600;
+}
+.avatar-editor-header h1::after {
+    content: 'Avatar Customizer';
+    font-size: 36px;
+    height: 56px;
+    display: inline-block;
+    top: 20px;
+    position: relative;
+}
+.redraw-avatar > span {
+    font-size: 0px!important;
+}
+.redraw-avatar > span::after {
+    content: 'Something wrong with your avatar?';
+    font-size: 15px!important;
+    font-weight: 400;
+}
+.redraw-avatar > .redraw-btn {
+    font-size: 0px!important;
+    position: relative;
+    left: -6px;
+    top: -7px;
+}
+.redraw-avatar > .redraw-btn::after {
+    content: 'Click here to re-draw it!';
+    font-size: 14px!important;
+    font-weight: 400;
+    color: #0055B3;
+}
+.left-wrapper-placeholder {
+    width: 300px;
+    margin-right: 50px;
+}
+#scale {
+    display: block!important;
+    position: relative;
+}
+#scale > .section-content {
+    box-shadow: none;
+    width: 300px;
+    background-color: #fff0;
+}
+.avatar-type-container .text-label.font-subheader-1 {
+    font-size: 0px;
+    margin: 0px;
+    position: relative;
+    left: -10px;
+}
+.avatar-type-container .text-label.font-subheader-1::after {
+    content: 'Avatar Type (BETA)';
+    font-size: 30px;
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 16px;
+    color: #191919;
+    display: inline-block;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root.Mui-selected {
+    color: #5e5e5e!important;
+    background-color: #0000!important;
+    border-radius: 0px;
+    margin-left: 35px;
+    margin-top: 12px;
+    font-size: 28px;
+    z-index: 1;
+    position: relative;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root.Mui-selected .MuiTouchRipple-root {
+    display: block!important;
+    background-color: #a7a7a7;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -22px;
+    left: -33px;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root .MuiTouchRipple-root {
+    display: block!important;
+    border: 1px solid #a7a7a7;
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+    position: relative;
+    top: -22px;
+    left: -33px;
+}
+.MuiToggleButtonGroup-root {
+    background-color: #fff0!important;
+    height: 50px;
+    width: 80px;
+}
+.catalog-header > div {
+    position: relative;
+    left: -95px;
+    display: block;
+    top: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 0px;
+}
+.catalog-header > div:after {
+    content: 'Explore the catalog to find more clothes!';
+    font-size: 14px;
+    font-weight: 400;
+}
+.light-theme .MuiToggleButtonGroup-root .MuiButtonBase-root[value="R15"]:not(.Mui-selected) {
+    position: relative;
+    left: 55px;
+    font-size: 28px;
+    top: 11.8px;
+    z-index: 1;
+}
+.light-theme .MuiToggleButtonGroup-root .MuiButtonBase-root.Mui-selected[value="R15"] {
+    position: relative;
+    left: 55px;
+    font-size: 28px;
+    z-index: 1;
+}
+.light-theme .MuiToggleButtonGroup-root .MuiButtonBase-root[value="R6"]:not(.Mui-selected) {
+    position: relative;
+    left: 34px;
+    top: 11.8px;
+    font-size: 28px;
+    z-index: 1;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root.Mui-selected[value="R6"]::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: -14px;
+    left: -37px;
+    z-index: -1;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root.Mui-selected[value="R15"]::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #e0e0e0;
+    position: absolute;
+    top: -14px;
+    left: -40px;
+    z-index: -1;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root[value="R15"]:not(.Mui-selected):hover::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #eee;
+    position: absolute;
+    top: -14px;
+    left: -40px;
+    z-index: -1;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root[value="R6"]:not(.Mui-selected):hover::after {
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background-color: #eee;
+    position: absolute;
+    top: -14px;
+    left: -37px;
+    z-index: -1;
+}
+.MuiToggleButtonGroup-root .MuiButtonBase-root {
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #757575;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 20px;
+    min-width: 36px;
+    height: 20px;
+    padding: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    border: none;
+}
+.avatar-type-contents-container {
+    position: relative;
+    top: 20px;
+    left: -38px;
+}
+.av15-empty {
+    height: 100%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.av15-loading {
+    font-size: 0px!important;
+}
+#UserAvatar > .thumbnail-2d-container {
+    display: none;
+}
+#UserAvatar > .avatar-preview {
+    position: relative;
+}
+.head {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    border: 2px solid #fff;
+}
+.torso {
+    width: 100px;
+    height: 105px;
+    position: relative;
+    top: 120px;
+    border: 2px solid #fff;
+}
+.left-arm, .left-leg, .right-arm, .right-leg {
+    width: 50px;
+    height: 105px;
+    position: relative;
+    border: 2px solid #fff;
+}
+.left-arm {
+    top: 120px;
+}
+.left-leg {
+    top: 118px;
+    left: 60px;
+}
+.right-arm {
+    top: 13px;
+    left: 10px;
+}
+.right-leg {
+    top: 118px;
+    left: -40px;
+}
+.bodycolors-header::after {
+    content: 'Click a body part to change its color:';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    cursor: text;
+}
+#scale > .section-content::after {
+    content: 'Note that gear, body parts and some hats are not yet R15 compatible.';
+    font-weight: 400;
+    position: relative;
+    top: 20px;
+    font-size: 14px;
+    display: inline-block;
+    width: 260px;
+    left: -10px;
+    margin-bottom: 10px;
+    cursor: text;
+}
+.body-container {
+    margin-left: 20px;
+    margin-top: -52px;
+}
+.redraw-avatar > .text-link {
+    display: none;
+}
+.redraw-btn {
+    background-color: #0000;
+    border: none;
+}
+.redraw-avatar > .redraw-btn:hover::after {
+    text-decoration: underline;
+}
+.colors-menu {
+    width: 400px;
+    height: auto;
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    z-index: 9999;
+    background-color: #fff;
+    border: 2px solid #bcbcbc;
+    padding: 15px;
+}
+#rbx-body:not(:has(.colors-menu[style="display: none;"])) {
+    overflow: hidden;
+}
+#rbx-body:has(.colors-menu[style="display: none;"]) {
+    overflow: inherit;
+}
+.colors-container {
+    margin-top: 0px;
+    width: 100%;
+    height: calc(100% - 30px);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 73px);
+}
+.color-button {
+    border-radius: 0%;
+    margin: 3px;
+    border: none;
+}
+.close-btn {
+    float: right;
+    background-color: #fff;
+    border: none;
+    font-size: 0px;
+    z-index: 1;
+    position: absolute;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACBUExURf////Hx8cTExJ+fn4KCgm1tbfPz88LCwomJiWZmZvb29q2trfj4+H19fXh4eIyMjGtra+/v7+3t7ZiYmP39/dTU1GpqamhoaOnp6fv7+7y8vIqKiuLi4nFxcbOzs4ODg+bm5uDg4O7u7uTk5Lm5uXR0dOjo6MXFxf7+/n9/f/T09NiS6zwAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCA1LjEuMTGKCBbOAAAAuGVYSWZJSSoACAAAAAUAGgEFAAEAAABKAAAAGwEFAAEAAABSAAAAKAEDAAEAAAACAAAAMQECABEAAABaAAAAaYcEAAEAAABsAAAAAAAAAGAAAAABAAAAYAAAAAEAAABQYWludC5ORVQgNS4xLjExAAADAACQBwAEAAAAMDIzMAGgAwABAAAAAQAAAAWgBAABAAAAlgAAAAAAAAACAAEAAgAEAAAAUjk4AAIABwAEAAAAMDEwMAAAAAAGNdRzso9yOwAAAMVJREFUKFNVkYkSgjAMRNNLqIgHKJ54oCjy/x/oJoEZ2RlC89pmQyCRsc6H4J2dac5K0jgoTQY0zwYiyhYCJwyUWYJFvlSwWiOgwgb1clMILbe7CnUN2Rj3ByKm5ZHohD1LDvGM4sWS2aVG6sjzPaZmZNFT4JfQkcUwwHhleNN10OvioW6QFyNhd3HjzHFLwh619oDUUpPG6slM3V5ovpHPbN/MmH4QeVAdBtJqL/GLJ+vYs5+OrmeGs/9DlnOiZvwd8CCiH1eTD00wpv1DAAAAAElFTkSuQmCC);
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    top: 4px;
+    left: calc(95% - 4px);
+}
+.close-btn:hover {
+    opacity: .8;
+}
+.MuiButtonBase-root.MuiButton-root {
+    border-radius: 3px;
+}
+.MuiButtonBase-root.MuiButton-root:nth-child(1) {
+    border: 1px solid #b8b8b8;
+    padding: 5px 11px;
+    background-color: #fff!important;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+.MuiButtonBase-root.MuiButton-root:nth-child(1):hover {
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+}
+.MuiButtonBase-root.MuiButton-root:nth-child(2) {
+    padding: 5px 11px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    transition: box-shadow 200ms ease-in-out;
+    background-color: #02b757;
+    border: 1px solid #02b757;
+}
+.MuiButtonBase-root.MuiButton-root:nth-child(2):hover {
+    background-color: #3fc679;
+    border: 1px solid #3fc679;
+    box-shadow: 0 1px 3px rgba(150, 150, 150, 0.74);
+}
+.MuiTypography-root.MuiTypography-h6.MuiDialogTitle-root {
+    display: none!important;
+}
+.MuiDialog-root:has([class*="-DialogContent-dividers"]) .MuiDialog-container [class*="-Dialog-paper"], .MuiModal-root:has([class*="-DialogContent-dividers"]) .MuiDialog-container [class*="-Dialog-paper"] {
+    width: 350px;
+}
+#UserAvatar:has(.thumbnail-3d-container) .avatar-preview {
+    display: none;
+}
+.colors-title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    top: -3px;
+    position: relative;
+}
+.bodycolors-header h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.avatar-type-message-banner {
+    display: none;
+}
+.content.seven-column {
+    width: 1000px;
+    max-width: 1000px;
+}
+.av15-page-btn:nth-child(4), .av15-page-btn:nth-child(5) {
+    color: #0055b3;
 }
 }
