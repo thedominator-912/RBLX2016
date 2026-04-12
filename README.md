@@ -2,7 +2,7 @@
 This is a userstyle that attempts to transform Modern Roblox's current theme into one reminiscent of the mid-2010s.
 
 <p align="center">
-    <img src="rblx2016ad.png" alt="RBLX2016 Advertisement" title="RBLX2016 Advertisement">
+    <img src="RBLX2016SS.png" alt="RBLX2016 Screenshot" title="RBLX2016 Screenshot">
 </p>
 
 ## Pages
