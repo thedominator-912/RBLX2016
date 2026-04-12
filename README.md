@@ -17,6 +17,7 @@ This is a userstyle that attempts to transform Modern Roblox's current theme int
 - Profile
 - Messages
 - ROBUX Payment Page
+- Avatar Editor
 
 ## Installation
 Don't have Stylus yet? You can download it here:
