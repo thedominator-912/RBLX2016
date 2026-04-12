@@ -44,7 +44,7 @@ Settings for BTR:
 For more accuracy, you'll need:
 - [Restore Favorites Label](https://pastebin.com/1jWtAavN)
 - [Old Profile Page Addon](https://greasyfork.org/en/scripts/568809-roblox-old-profile-page-add-on)
-- [Old Gamecards](https://greasyfork.org/en/scripts/532672-roblox-2016-gamecard-addon-for-rlot)
+- [Avatar Editor Elements](https://greasyfork.org/en/scripts/573558-roblox-2016-avatar-editor)
 
 These both require [Tampermonkey](https://www.tampermonkey.net/index.php#download) to use. If you're confused on how to install these scripts, view [this page](https://www.tampermonkey.net/faq.php?locale=en#Q102) for more info.
 
