@@ -16,6 +16,7 @@ This is a userstyle that attempts to transform Modern Roblox's current theme int
 - Buy ROBUX
 - Profile
 - Messages
+- ROBUX Payment Page
 
 ## Installation
 Don't have Stylus yet? You can download it here:
@@ -43,8 +44,17 @@ Settings for BTR:
 For more accuracy, you'll need:
 - [Restore Favorites Label](https://pastebin.com/1jWtAavN)
 - [Old Profile Page Addon](https://greasyfork.org/en/scripts/568809-roblox-old-profile-page-add-on)
+- [Old Gamecards](https://greasyfork.org/en/scripts/532672-roblox-2016-gamecard-addon-for-rlot)
 
 These both require [Tampermonkey](https://www.tampermonkey.net/index.php#download) to use. If you're confused on how to install these scripts, view [this page](https://www.tampermonkey.net/faq.php?locale=en#Q102) for more info.
+
+Also, you'll need to download [RoSeal](https://www.roseal.live/). Once it's installed, get [this file](https://www.mediafire.com/file/izbhy08dlnq4qrk/RoSeal_data.json/file) and open the RoSeal settings page. 
+
+Go to Management, and select Import Data. It will make you choose a file (select RoSeal_data.json). Then, press the "Import Data" button. 
+
+Once that's done, find the Roblox Experiments tab. It will bring you to a caution page, so press the "I Understand" button. Then scroll down to "New Left Navigation", and open the dropdown. Select "Disabled." 
+
+This brings back the old sidebar, after the recent update.
 ## Credits
 - [CodePen](https://codepen.io)
 - [Wayback Machine](https://web.archive.org)
